@@ -5,6 +5,7 @@
 # 
 # Translators:
 # stevenday <forestorama@gmail.com>, 2020
+# Peter Low <peter@openownership.org>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-16 14:40+0000\n"
 "PO-Revision-Date: 2020-10-16 14:42+0000\n"
-"Last-Translator: stevenday <forestorama@gmail.com>, 2020\n"
+"Last-Translator: Peter Low <peter@openownership.org>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/open-ownership/teams/114081/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,15 +37,15 @@ msgstr "Licitaciones en curso"
 #: bluetail/templates/bluetail/ocds-tender-tenderer.html:25
 #, python-format
 msgid "Tender application <code>%(party_id)s</code>"
-msgstr "Solicitud de licitación <code>%(party_id)s</code>"
+msgstr "Licitación <code>%(party_id)s</code>"
 
 #: bluetail/templates/bluetail/ocds-tender-tenderer.html:27
 msgid "Applicant"
-msgstr "Solicitante"
+msgstr "Licitante"
 
 #: bluetail/templates/bluetail/ocds-tender-tenderer.html:33
 msgid "Beneficial owners"
-msgstr "Propietarios beneficiarios"
+msgstr "Beneficiarios reales"
 
 #: bluetail/templates/bluetail/ocds-tender-tenderer.html:42
 msgid "Parent companies"
@@ -56,7 +57,7 @@ msgstr "Publicado por"
 
 #: bluetail/templates/bluetail/ocds-tender.html:20
 msgid "Published date"
-msgstr "Fecha de Publicación"
+msgstr "Fecha de publicación"
 
 #: bluetail/templates/bluetail/ocds-tender.html:22
 msgid "Closing date"
@@ -72,7 +73,7 @@ msgstr "Valor del contrato"
 
 #: bluetail/templates/bluetail/ocds-tender.html:30
 msgid "Tenders received"
-msgstr "Licitaciones recibidas"
+msgstr "Postulaciones recibidas"
 
 #: bluetail/templates/bluetail/partials/application-errors-badge.html:4
 #, python-format
@@ -89,7 +90,7 @@ msgstr[0] ""
 "%(count)s error"
 msgstr[1] ""
 "\n"
-"%(count)s errors"
+"%(count)s errores"
 
 #: bluetail/templates/bluetail/partials/application-warnings-badge.html:4
 #, python-format
@@ -106,7 +107,7 @@ msgstr[0] ""
 "%(count)sadvertencia"
 msgstr[1] ""
 "\n"
-"%(count)sadvertencias"
+"%(count)savisos"
 
 #: bluetail/templates/bluetail/partials/bods-entity.html:22
 #: bluetail/templates/bluetail/partials/ocds-org.html:22
@@ -116,12 +117,12 @@ msgstr "Nombre de empresa"
 #: bluetail/templates/bluetail/partials/bods-entity.html:26
 #: bluetail/templates/bluetail/partials/ocds-org.html:26
 msgid "Company ID"
-msgstr "ID de la compañía"
+msgstr "ID de la empresa"
 
 #: bluetail/templates/bluetail/partials/bods-entity.html:46
 #: bluetail/templates/bluetail/partials/ocds-org.html:45
 msgid "Country of registration"
-msgstr "Pais de registro"
+msgstr "País de constitución"
 
 #: bluetail/templates/bluetail/partials/bods-person.html:22
 msgid "Full name"
@@ -133,7 +134,7 @@ msgstr "Fecha de nacimiento"
 
 #: bluetail/templates/bluetail/partials/bods-person.html:43
 msgid "Address"
-msgstr "Habla a"
+msgstr "Dirección"
 
 #: bluetail/templates/bluetail/partials/bods-person.html:49
 msgid "Nationality"
@@ -158,11 +159,11 @@ msgstr[0] ""
 "%(count)slicitacion recibida"
 msgstr[1] ""
 "\n"
-"%(count)slicitaciones recibidas"
+"%(count)spostulaciones recibidas"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:5
 msgid "Ministry of Efficiency"
-msgstr "Ministerio de Eficiencia"
+msgstr "Ministerio de Compras Eficientes"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:19
 msgid "Filtered By Dataset"
@@ -190,23 +191,24 @@ msgstr "Buscador de contratos con beneficiarios reales"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:26
 msgid "Filtered By Flag"
-msgstr "Filtrado por bandera"
+msgstr "Filtrado por indicador"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:27
 msgid "Any Flag"
-msgstr "Cualquier Bandera"
+msgstr "Todos los indicadores"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:28
 msgid "Beneficial Owner matches Cabinet Minister"
-msgstr "El propietario beneficiario coincide con el ministro del gabinete"
+msgstr ""
+"Datos del beneficiario real coinciden con los de un ministro del gobierno"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:29
 msgid "Company linked to multiple applications to a tender"
-msgstr "Empresa vinculada a múltiples solicitudes de licitación"
+msgstr "Empresa vinculada a múltiples postulaciones a la misma licitación"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:30
 msgid "Person linked to multiple applications to a tender"
-msgstr "Persona vinculada a múltiples solicitudes de licitación"
+msgstr "Persona vinculada a múltiples postulaciones a la misma licitación"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:35
 msgid "Spending analysis"
