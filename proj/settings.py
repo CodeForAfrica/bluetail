@@ -97,8 +97,8 @@ DATABASES = {
     'default': dj_database_url.config(env="DATABASE_URL", default=DATABASE_URL)
 }
 
-LANGUAGE_CODE = 'en-uk'
-LOCALE_PATHS = [ os.path.join(BASE_DIR, 'locale') ]
+# LANGUAGE_CODE is set in conf/config_defaults.py
+LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
 
 ROOT_URLCONF = 'proj.urls'
 

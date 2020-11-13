@@ -19,3 +19,6 @@ DATABASE_URL = os.getenv("DATABASE_URL", 'postgres://bluetail:bluetail@localhost
 
 # This must be set in `config.py` or the environment variable.
 SECRET_KEY = os.getenv('SECRET_KEY')
+
+# Set this in `config.py` or the environment variable to override
+LANGUAGE_CODE = os.getenv('LANGUAGE_CODE', 'en-uk')
