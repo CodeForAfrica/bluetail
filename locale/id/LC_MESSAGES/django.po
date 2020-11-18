@@ -85,6 +85,8 @@ msgid_plural ""
 "            %(count)s errors\n"
 "        "
 msgstr[0] ""
+"\n"
+"        %(count)s kesalahan"
 
 #: bluetail/templates/bluetail/partials/application-warnings-badge.html:4
 #, python-format
@@ -97,6 +99,8 @@ msgid_plural ""
 "            %(count)s warnings\n"
 "        "
 msgstr[0] ""
+"\n"
+"        %(count)s peringatan"
 
 #: bluetail/templates/bluetail/partials/bods-entity.html:22
 #: bluetail/templates/bluetail/partials/ocds-org.html:22
@@ -144,6 +148,8 @@ msgid_plural ""
 "                %(count)s tenders received\n"
 "            "
 msgstr[0] ""
+"\n"
+"        %(count)s tender diterima"
 
 #: bluetail/templates/bluetail_and_silvereye_shared/partials/site-header.html:5
 msgid "Ministry of Efficiency"
