@@ -9,7 +9,7 @@
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "3264298751"
       }
     ],
@@ -17,12 +17,12 @@
       {
         "type": "registered",
         "address": "Aston House, Cornwall Avenue, London, N3 1LF",
-        "country": "GB",
+        "country": "ID",
         "postCode": "N3 1LF"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "ID"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
@@ -41,15 +41,15 @@
     "name": "CV Suka Tidur",
     "addresses": [
       {
-        "country": "GB"
+        "country": "ID"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "ID"
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "6159248167"
       }
     ],
@@ -78,7 +78,7 @@
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "1216485124578"
       }
     ],
@@ -107,7 +107,7 @@
     },
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "ID-LAC",
         "id": "6213874"
       }
     ],
