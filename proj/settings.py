@@ -13,6 +13,8 @@ import sys
 
 import dj_database_url
 
+from django.utils.translation import ugettext_lazy as _
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SITE_ROOT = '/'
@@ -60,6 +62,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -97,7 +100,13 @@ DATABASES = {
     'default': dj_database_url.config(env="DATABASE_URL", default=DATABASE_URL)
 }
 
-LANGUAGE_CODE = 'en-uk'
+LANGUAGE_CODE = os.getenv("LANGUAGE_CODE", "sw")
+
+LANGUAGES = (
+    ('sw', _('Swahili')),
+    ('en', _('English')),
+    ('es', _('Spanish')),
+)
 
 ROOT_URLCONF = 'proj.urls'
 
