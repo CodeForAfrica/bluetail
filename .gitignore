@@ -3,6 +3,7 @@
 .project
 .pydevproject
 env/
+venv/
 bigenv/
 .vagrant
 _output/

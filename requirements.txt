@@ -9,13 +9,12 @@ django-autoslug==1.9.7
 django-htmlmin
 django-markitup==4.0.0
 django-pipeline==1.6.14
--e git+https://github.com/mysociety/django-pipeline-csscompressor@6a88fde5045d68746f1c7ee816deda86615c5581#egg=django_pipeline_csscompressor-master
-futures==3.0.5
+django-pipeline-csscompressor==0.1
 libsass==0.12.3
 olefile==0.44
 psycopg2==2.8.5
 six==1.10.0
-feedparser==5.2.1
+feedparser==6.0.8
 django-import-export==2.0.2
 
 # Added For Heroku
