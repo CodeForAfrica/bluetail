@@ -5,23 +5,17 @@ verify_ssl = true
 
 [packages]
 # mySociety Django project
-django = ">=2.2,<2.3"
-markdown = "==2.6.8"
-pillow = "*"
-pyyaml = "==4.2b1"
 argparse = "==1.2.1"
 csscompressor = "==0.9.4"
 django-autoslug = "==1.9.7"
 django-htmlmin = "*"
 django-markitup = "==4.0.0"
 django-pipeline = "==1.6.14"
-django-pipeline-csscompressor-master = {ref = "6a88fde5045d68746f1c7ee816deda86615c5581", git = "https://github.com/mysociety/django-pipeline-csscompressor", editable = true}
-futures = "==3.0.5"
 libsass = "==0.12.3"
 olefile = "==0.44"
 psycopg2 = "==2.8.5"
-six = "*"
-feedparser = "==5.2.1"
+six = "==1.10.0"
+feedparser = "==6.0.8"
 django-import-export = "==2.0.2"
 # Heroku
 waitress = "==1.4.3"
@@ -30,16 +24,21 @@ dj-database-url = "==0.5.0"
 # Bluetail
 django-pgviews-redux = "==0.6.0"
 # Silvereye
-libcoveweb = {ref = "v0.14.0", git = "https://github.com/OpenDataServices/lib-cove-web.git", editable = true}
-
+libcoveweb = {editable = true, ref = "v0.14.0", git = "https://github.com/OpenDataServices/lib-cove-web.git"}
 # Used for scripts to gather and process Contracts Finder and BODS data
 ocdskit = "*"
-pandas = "*"
-elasticsearch = "<8"
-elasticsearch_dsl = "*"
-smart_open = "*"
-django-storages = "<2"
-faker = "==4.1.1"
+pandas = "==1.0.5"
+elasticsearch = "==7.8.0"
+django-storages = "==1.9.1"
+django-pipeline-csscompressor = "==0.1"
+Django = "==2.2.13"
+Markdown = "==2.6.8"
+Pillow = "==7.1.2"
+PyYAML = "==4.2b1"
+elasticsearch-dsl = "==7.2.1"
+smart-open = "==2.1.0"
+Faker = "==4.1.1"
+rfc6266 = "*"
 
 [dev-packages]
 
