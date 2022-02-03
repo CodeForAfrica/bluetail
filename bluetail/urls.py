@@ -13,4 +13,5 @@ urlpatterns = [
     path('bods/statement/person/<str:pk>/', views.BODSPersonStatementView.as_view(), name='bods-person-statement'),
     path('bods/statement/entity/<str:pk>/', views.BODSEntityStatementView.as_view(), name='bods-entity-statement'),
     path('bods/statement/ownership/<str:pk>/', views.BODSOwnershipStatementView.as_view(), name='bods-ownership-statement'),
+    path('i18n/', include('django.conf.urls.i18n')),
 ]

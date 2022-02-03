@@ -1,5 +1,5 @@
 {% load i18n %}
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3 fixed-top">
     <div class="container-md">
         <a class="navbar-brand" href="{% url 'home' %}">
             {% include "bluetail_and_silvereye_shared/icons/shield.html" with classes="icon mr-1" %}
@@ -35,6 +35,25 @@
                     <a class="nav-link" href="#">
                         {% trans "Spending analysis" %}
                     </a>
+                </li>
+                <li class="nav-item dropdown pl-2">
+                    <form id="language_form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                        <input name="next" type="hidden" value="{{ redirect_to }}">
+                        <div class="form-row">
+                            <div class="col-auto">
+                            <select name="language" class="custom-select mr-sm-2"  onchange="language_form.submit()">
+                                {% get_current_language as LANGUAGE_CODE %}
+                                {% get_available_languages as LANGUAGES %}
+                                {% get_language_info_list for LANGUAGES as languages %}
+                                {% for language in languages %}
+                                    <option id="language" value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                                        {{ language.name_local }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        </div>
+                    </form>
                 </li>
             </ul>
         </div>
