@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load static %}
 {% load pipeline %}
 
@@ -19,7 +20,30 @@
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
     {% include "bluetail_and_silvereye_shared/partials/site-header.html" %}
-
+    <div class="container-md">
+        {% get_current_language as CURRENT_LANGUAGE %}
+        {% get_available_languages as AVAILABLE_LANGUAGES %}
+        {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+        <div class="d-flex justify-content-start">
+            <div>
+                <p>
+                    {% trans "Language" %}:
+                </p>
+            </div>
+            <div>
+                <ul class="languages">
+                    {% for language in languages %}
+                        <li class="language">
+                            <a href="/{{ language.code }}/"
+                            {% if language.code == CURRENT_LANGUAGE %} class="active" {% endif %}>
+                                {{ language.name_local }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
     {% block content %}{% endblock %}
 
     <div class="site-footer"></div>

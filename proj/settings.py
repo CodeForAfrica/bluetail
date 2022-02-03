@@ -105,7 +105,6 @@ LANGUAGE_CODE = os.getenv("LANGUAGE_CODE", "sw")
 LANGUAGES = (
     ('sw', _('Swahili')),
     ('en', _('English')),
-    ('es', _('Spanish')),
 )
 
 ROOT_URLCONF = 'proj.urls'
