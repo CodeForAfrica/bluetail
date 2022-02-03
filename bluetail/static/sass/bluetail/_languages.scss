@@ -1,0 +1,24 @@
+.languages {
+    padding: 0px;    
+}
+
+.language {
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+}
+.language a {
+    display: inline;
+    color: #DDAF94;
+}
+
+.language .active {
+    background-color: #266150;
+    padding: 5px;
+    text-align: right;
+    border-radius: 7px;
+}
+
+.language :hover {
+    text-decoration: none;
+}
