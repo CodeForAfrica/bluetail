@@ -69,6 +69,7 @@ class OCDSRecordJSON(models.Model):
     class Meta:
         app_label = 'bluetail'
         db_table = 'bluetail_ocds_record_json'
+        verbose_name_plural = 'OCDS JSON Records'
 
 
 class OCDSReleaseJSON(pgviews.View):
