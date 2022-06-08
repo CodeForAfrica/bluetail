@@ -5,11 +5,11 @@
     "isComponent": false,
     "statementDate": "2017-11-18",
     "entityType": "unknownEntity",
-    "name": "Synomus Technology Services Ltd.",
+    "name": "Assad Group",
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "GB-LAC",
+        "scheme": "KE-RCO",
         "id": "1602647563"
       }
     ],
@@ -22,13 +22,13 @@
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "KE"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -38,14 +38,14 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Synomus International Ltd.",
+    "name": "Assad Group",
     "addresses": [
       {
         "country": "GB"
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "KE"
     },
     "identifiers": [
       {
@@ -57,7 +57,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -86,7 +86,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -116,7 +116,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -146,7 +146,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -171,7 +171,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -196,7 +196,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -221,7 +221,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -251,7 +251,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -281,7 +281,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   },
@@ -311,7 +311,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Synomus Technology Services Ltd."
+        "name": "Assad Group"
       }
     }
   }
