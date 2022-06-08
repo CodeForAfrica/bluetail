@@ -5,7 +5,7 @@
     "isComponent": false,
     "statementDate": "2017-11-18",
     "entityType": "unknownEntity",
-    "name": "Gough-Hunt Ltd.",
+    "name": "Frank's Tech Tools Company",
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
@@ -22,13 +22,13 @@
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "GB"
+      "code": "KE"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -38,7 +38,7 @@
     "isComponent": false,
     "statementDate": "2018-01-05",
     "entityType": "arrangement",
-    "name": "Gough Holdings Ltd.",
+    "name": "Frank's Tech Tools Company.",
     "addresses": [
       {
         "country": "GB"
@@ -57,7 +57,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -86,7 +86,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -116,7 +116,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -146,7 +146,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -171,7 +171,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -196,7 +196,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -221,7 +221,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -246,7 +246,7 @@
       "publicationDate": "2018-11-19",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -276,7 +276,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -306,7 +306,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -336,7 +336,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   },
@@ -366,7 +366,7 @@
       "publicationDate": "2018-11-18",
       "bodsVersion": "0.2",
       "publisher": {
-        "name": "Gough-Hunt Ltd."
+        "name": "Frank's Tech Tools Company"
       }
     }
   }
