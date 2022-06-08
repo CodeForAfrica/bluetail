@@ -9,7 +9,7 @@
     "foundingDate": "2010-11-18",
     "identifiers": [
       {
-        "scheme": "KE-RCO",
+        "scheme": "GB-LAC",
         "id": "5740394756"
       }
     ],
@@ -22,7 +22,7 @@
       }
     ],
     "incorporatedInJurisdiction": {
-      "code": "KE"
+      "code": "GB"
     },
     "publicationDetails": {
       "publicationDate": "2018-11-18",
